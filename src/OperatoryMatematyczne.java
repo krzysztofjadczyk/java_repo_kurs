@@ -12,8 +12,8 @@ public class OperatoryMatematyczne {
 
         System.out.println("Dodawanie: " + addition);
         System.out.println("Odejmowanie: " + subtraction);
-        System.out.println("Dzielenie: " + multiplication);
-        System.out.println("Mnożenie: " + division);
+        System.out.println("Dzielenie: " + division);
+        System.out.println("Mnożenie: " + multiplication);
         System.out.println("Modulo: " + mod);
 
         //inny sposób zapisu powyższych działań
