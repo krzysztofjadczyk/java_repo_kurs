@@ -4,6 +4,17 @@ public class Auto {
     public int rokProdukcji;
     public int przebieg;
 
+    public Auto(String marka, String model, int rokProdukcji, int przebieg) {
+        this.marka = marka;
+        this.model = model;
+        this.rokProdukcji = rokProdukcji;
+        this.przebieg = przebieg;
+
+    }
+
+    public Auto() {
+
+    }
 
     public void jedz() {
         System.out.println("Jadę!");
