@@ -36,6 +36,7 @@ public class LoopsCheck {
             int temp = numbers2[i];
             numbers2[i] = numbers2[numbers2.length-1-i];
             numbers2[numbers2.length-1-i]=temp;
+            System.out.println("Iteracja numer: " + i);
         }
 
         for (int i=0; i<numbers2.length; i++) {
