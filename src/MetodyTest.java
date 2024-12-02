@@ -12,5 +12,7 @@ public class MetodyTest {
         int result2 = metody.wyliczWynik(5, 6);
         System.out.println("Zwócony wynik przez metodę wyliczWynik: " + result2);
 
+        metody.policzWynikParam(10);
+
     }
 }
