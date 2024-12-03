@@ -5,7 +5,7 @@ public class Student {
     public String nick;
     public String email;
     public int numerIndeksu;
-    public static String nazwaUczelni = "AGH";
+    public static String nazwaUczelni = "AGH po zmianie"; //pole statyczne jest związane z klasą a nie konkretną instancją obiektu klasy
 
 
     public void przedstawSie() {
@@ -23,5 +23,15 @@ public class Student {
 
     public void podajEmail() {
         System.out.println("Mój email to: " + email);
+    }
+
+    public static void infoUczelnia() { //metoda statyczna jest związana z klasą a nie konkretną instancją obiektu klasy
+        System.out.println("Moja uczelnia to: " + nazwaUczelni);
+        druga(); //można wywołać inną metodę statyczną ale nie statyczne metody nie mogą być użyte
+                 //nie można też używać pól które nie są statyczne
+    }
+
+    public static void druga() {
+        System.out.println("Jestem drugą metodą");
     }
 }

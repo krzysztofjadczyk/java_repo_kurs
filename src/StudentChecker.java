@@ -5,6 +5,7 @@ public class StudentChecker {
     public static void main(String[] args) {
 
         String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
 
         Student student1 = new Student();
         student1.imie = "Marek";
