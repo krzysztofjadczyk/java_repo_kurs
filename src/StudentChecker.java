@@ -3,11 +3,15 @@
 public class StudentChecker {
 
     public static void main(String[] args) {
+
+        String uczelnia = Student.nazwaUczelni;
+
         Student student1 = new Student();
         student1.imie = "Marek";
         student1.nazwisko = "Kowalczyk";
         student1.email = "marek.kowalczyk@student.pl";
         student1.nick = "kowal";
+        String uczelniaStudenta1 = student1.nazwaUczelni;
 
         Student student2 = new Student();
         student2.imie = "Karol";
